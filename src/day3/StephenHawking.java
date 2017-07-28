@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class StephenHawking {
 	public static void main(String[] args) {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 1; i++) {
 			String ans = JOptionPane.showInputDialog("Give me a sentance");
 			speak(ans);
 		}
